@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
         runOnUiThread(() ->
                 Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show());
     }
+
     private void setupVideSDKEngine(){
         try{
             RtcEngineConfig config = new RtcEngineConfig();
